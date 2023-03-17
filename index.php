@@ -48,7 +48,7 @@
     </div>
   </div>
 </nav>
-<nav class="navbar navbar-expand-lg" style="background-color: black;">
+<nav class="navbar navbar-expand-lg" style="background-color: black; border-bottom: 10px solid black;">
 </nav>
 
 <img src="" class="img-fluid" alt="...">
