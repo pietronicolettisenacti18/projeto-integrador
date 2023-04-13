@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barbearia</title>
+    <title>Barber Shop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -17,7 +17,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #363636;">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Barber Shop</a>
+    <a class="navbar-brand" style="margin-right: 80px; font-size: 25px; font-style: italic; color: #f2f2f2;" href="#">Barber Shop</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -40,26 +40,29 @@
             Mais
           </a>
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><a style="text-align: center;" class="dropdown-item" href="#">Contato</a></li>
+            <li><a style="text-align: center;" class="dropdown-item" href="#">Galeria</a></li>
           </ul>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-<nav class="navbar navbar-expand-lg" style="background-color: black; border-bottom: 10px solid black;">
+<nav class="navbar navbar-expand-lg" style="background-color: black; border-bottom: 5px solid black;">
 </nav>
 
 <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/imagem-barbeiro-topo.png" height="750" class="d-block w-100" alt="...">
+                    <img src="img/barber2.jpg" height="930" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/imagem-barbeiro-topo2.png" height="750" class="d-block w-100" alt="...">
+                    <img src="img/barber3.jpg" height="930" class="d-block w-100" alt="...">
                 </div>
+                <div class="carousel-item">
+                    <img src="img/barber5.jpg" height="930" class="d-block w-100" alt="...">
+                </div>
+               
 
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -70,18 +73,17 @@
             <span class="visually-hidden">Next</span>
         </button>
 </div>
+</div>
 
-<nav class="navbar navbar-expand-lg" style="background-color: black; border-bottom: 70px solid black;">
+<nav class="navbar navbar-expand-lg" style="background-color: black; border-bottom: 5px solid black;">
 </nav>
 
 
   
-<h2 class="font text-center" style="font-size: 90px">
-<img src="img/imagem-barbeiro-qmsomos.avif" class="quemsomos">
-<span class="color">QUEM SOMOS</span>
-</h2>
-
-
+<div class="imagem">
+  <h2 class="texto">TESTE</h2>
+</div>
+ 
 
 
 
