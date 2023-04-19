@@ -4,22 +4,19 @@ padding-right: 60px;
 }
 
 .navbar-nav > li{
-    margin-left: 60x;
+    margin-left: 60px;
     margin-right: 60px;
 }
 
-.color {
-    color: rgb(245, 174, 113);
-}
-
-.font{
-    font-family: normal normal normal 90px/1.4em, sans-serif;
-    margin-top: 100px;
+.navbar{
+    background-color: black;
+     border-bottom: 5px solid black;
 }
 
 .imagem{
-    margin-top: 100px;
-    background-image: url("./img/barber3.jpg");
-
-      
+background-image: url("./img/quemsomos.jpg");
+margin-top: 100px;
+height: 500px;
+width: 400px;
 }
+

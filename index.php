@@ -10,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barber Shop</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -17,7 +18,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #363636;">
   <div class="container-fluid">
-    <a class="navbar-brand" style="margin-right: 80px; font-size: 25px; font-style: italic; color: #f2f2f2;" href="#">Barber Shop</a>
+    <a class="navbar-brand" style="font-style: italic; color: #f2f2f2;" href="#">Barber Shop</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -48,7 +49,7 @@
     </div>
   </div>
 </nav>
-<nav class="navbar navbar-expand-lg" style="background-color: black; border-bottom: 5px solid black;">
+<nav class="navbar navbar-expand-lg">
 </nav>
 
 <div id="carouselExample" class="carousel slide">
@@ -59,9 +60,7 @@
                 <div class="carousel-item">
                     <img src="img/barber3.jpg" height="930" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                    <img src="img/barber5.jpg" height="930" class="d-block w-100" alt="...">
-                </div>
+               
                
 
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -75,7 +74,7 @@
 </div>
 </div>
 
-<nav class="navbar navbar-expand-lg" style="background-color: black; border-bottom: 5px solid black;">
+<nav class="navbar navbar-expand-lg">
 </nav>
 
 
@@ -84,7 +83,6 @@
   <h2 class="texto">TESTE</h2>
 </div>
  
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
