@@ -8,48 +8,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barber Shop</title>
+    <title>Barbearia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #363636;">
-  <div class="container-fluid">
-    <a class="navbar-brand" style="font-style: italic; color: #f2f2f2;" href="#">Barber Shop</a>
+<nav class="navbar navbar-expand-lg navbar-dark cor-nav fixed-top">
+<div class="container-fluid">
+  <a class="navbar-brand barber-shop" href="#">Barber Shop</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
     <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <li class="nav-item barra-topo">
+          <a class="nav-link active home" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item barra-topo">
           <a class="nav-link" href="#">Agende Agora Online!</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item barra-topo">
           <a class="nav-link" href="#">Quem Somos</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item barra-topo">
           <a class="nav-link" href="#">Serviços</a>
         </li>
-        <li class="nav-item dropdown">
+        
+        <li class="nav-item dropdown barra-topo">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Mais
           </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a style="text-align: center;" class="dropdown-item" href="#">Contato</a></li>
-            <li><a style="text-align: center;" class="dropdown-item" href="#">Galeria</a></li>
+          <ul class="dropdown-menu dropdown-menu-dark mais" aria-labelledby="navbarDarkDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Contato</a></li>
+            <li><a class="dropdown-item" href="#">Galeria</a></li>
           </ul>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg borda">
 </nav>
 
 <div id="carouselExample" class="carousel slide">
@@ -74,7 +74,7 @@
 </div>
 </div>
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg borda">
 </nav>
 
 

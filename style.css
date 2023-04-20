@@ -1,22 +1,30 @@
-.navbar-nav > li{
-padding-left: 60px;
-padding-right: 60px;
+@media only screen and (min-width: 992px) and (max-width: 1290px) {
+    .container-fluid {
+     
+        }
+  
+
+    }
+
+.barber-shop{
+    font-size: 3vh;
+    font-style: italic;
 }
 
-.navbar-nav > li{
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-.navbar{
+.borda{
     background-color: black;
      border-bottom: 5px solid black;
 }
 
-.imagem{
-background-image: url("./img/quemsomos.jpg");
-margin-top: 100px;
-height: 500px;
-width: 400px;
+.cor-nav{
+    background-color: #000000;
 }
 
+.mais{
+    text-align: center;
+}
+
+.barra-topo{
+    margin-left: 18vh;
+    font-size: 100%;
+}
