@@ -11,35 +11,35 @@
     <title>Barbearia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <link rel="stylesheet" type="text/css" href="style.css">
-   <link rel="icon" href="img/icon(1).png" type="image/x-icon">
+   <link rel="icon" href="img/icone.png" type="image/x-icon">
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-danger">
+<nav class="navbar navbar-expand-lg fixed-top bg-danger">
 <div class="container-fluid">
-  <a class="navbar-brand" href="#">Barbearia #</a>
+  <a class="navbar-brand bg-gradient-danger" href="#">Barber Shop</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-    <ul class="navbar-nav ms-auto">
+    <ul class="navbar-nav mx-auto">
         <li class="nav-item me-5">
-          <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
+          <a class="nav-link active home me-5" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item me-5">
-          <a class="nav-link me-5" href="#">Agendar</a>
+          <a class="nav-link bg-gradient-danger me-5" href="#">Agendar</a>
         </li>
         <li class="nav-item me-5">
-          <a class="nav-link me-5" href="#">Quem Somos</a>
+          <a class="nav-link bg-gradient-danger me-5" href="#">Quem Somos</a>
         </li>
         <li class="nav-item me-5">
-          <a class="nav-link me-5" href="#">Serviços</a>
+          <a class="nav-link bg-gradient-danger me-5" href="#">Serviços</a>
         </li>
         
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle mais" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Mais
           </a>
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -76,8 +76,8 @@
 
 
   
-<div class="imagem">
-  <h2 class="texto">TESTE</h2>
+<div class="imagem mt-5">
+<img src="img/quemsomos.jpg" class="img-fluid quem-somos" alt="...">
 </div>
  
 

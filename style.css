@@ -1,0 +1,20 @@
+.navbar-brand{
+    font-style: italic;
+}
+
+.bg-gradient-danger{
+    color: black;   
+    transition: color 0.5s ease;
+}
+
+.bg-gradient-danger:hover{
+    color: white;
+}
+
+.navbar-nav .nav-link.active.home{
+    color: white;
+  }
+
+.navbar-nav .nav-link.dropdown-toggle.mais{
+    color: black;
+}
