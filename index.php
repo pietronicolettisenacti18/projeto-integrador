@@ -11,36 +11,38 @@
     <title>Barbearia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="icon" href="img/icon(1).png" type="image/x-icon">
 </head>
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark cor-nav fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-danger">
 <div class="container-fluid">
-  <a class="navbar-brand barber-shop" href="#">Barber Shop</a>
+  <a class="navbar-brand" href="#">Barbearia #</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-    <ul class="navbar-nav">
-        <li class="nav-item barra-topo">
-          <a class="nav-link active home" aria-current="page" href="#">Home</a>
+    <ul class="navbar-nav ms-auto">
+        <li class="nav-item me-5">
+          <a class="nav-link active me-5" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item barra-topo">
-          <a class="nav-link" href="#">Agende Agora Online!</a>
+        <li class="nav-item me-5">
+          <a class="nav-link me-5" href="#">Agendar</a>
         </li>
-        <li class="nav-item barra-topo">
-          <a class="nav-link" href="#">Quem Somos</a>
+        <li class="nav-item me-5">
+          <a class="nav-link me-5" href="#">Quem Somos</a>
         </li>
-        <li class="nav-item barra-topo">
-          <a class="nav-link" href="#">Serviços</a>
+        <li class="nav-item me-5">
+          <a class="nav-link me-5" href="#">Serviços</a>
         </li>
         
-        <li class="nav-item dropdown barra-topo">
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Mais
           </a>
-          <ul class="dropdown-menu dropdown-menu-dark mais" aria-labelledby="navbarDarkDropdownMenuLink">
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
             <li><a class="dropdown-item" href="#">Contato</a></li>
             <li><a class="dropdown-item" href="#">Galeria</a></li>
           </ul>
@@ -49,16 +51,14 @@
     </div>
   </div>
 </nav>
-<nav class="navbar navbar-expand-lg borda">
-</nav>
 
-<div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
+<div id="carouselExample" class="carousel slide carousel-fade">
+            <div class="carousel-inner mt-5">
                 <div class="carousel-item active">
-                    <img src="img/barber2.jpg" height="930" class="d-block w-100" alt="...">
+                    <img src="img/barber-shop1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/barber3.jpg" height="930" class="d-block w-100" alt="...">
+                    <img src="img/barber-shop.jpg"  class="d-block w-100" alt="...">
                 </div>
                
                
@@ -73,9 +73,6 @@
         </button>
 </div>
 </div>
-
-<nav class="navbar navbar-expand-lg borda">
-</nav>
 
 
   
