@@ -23,7 +23,7 @@
     <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+    <div class="collapse k navbar-collapse" id="navbarNavDarkDropdown">
     <ul class="navbar-nav mx-auto">
         <li class="nav-item me-5">
           <a class="nav-link active home me-5" aria-current="page" href="#">Home</a>
@@ -76,8 +76,9 @@
 
 
   
-<div class="imagem mt-5">
-<img src="img/quemsomos.jpg" class="img-fluid quem-somos" alt="...">
+<div class="imagemQuemSomos mt-5">
+<img src="img/quemsomos.jpg" class="img-fluid mt-4" style="object-fit: cover; height: auto; width: 50%; padding-left: 17%;" alt="...">
+<a class="textoQuemSomos">TESTE</a>
 </div>
  
 
