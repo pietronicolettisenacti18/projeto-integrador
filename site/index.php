@@ -1,6 +1,7 @@
 <?php
 
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -8,7 +9,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barbearia</title>
+    <title>Barbearia do Léo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <link rel="stylesheet" type="text/css" href="style.css">
    <link rel="icon" href="img/icone.png" type="image/x-icon">
@@ -18,7 +19,7 @@
 
 <nav class="navbar navbar-expand-lg fixed-top bg-danger">
 <div class="container-fluid">
-  <a class="navbar-brand bg-gradient-danger" href="#">Barber $hop</a>
+  <a class="navbar-brand bg-gradient-danger" href="#">Barbearia do Léo</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -74,16 +75,28 @@
 </div>
 
 
-<div class="imagemQuemSomos mt-5">
+<div class="mt-5">
+<img src="img/quemsomosPB.jpg" class="img-fluid imgQuemSomos mt-5" alt="...">
 
-<img src="img/quemsomos.jpg" class="img-fluid mt-5" style="object-fit: cover; height: auto; width: 40%; left: 5%; position: absolute;" alt="...">
-
-<span class="QuemSomos mt-5" style="font-size: 7vw; position: absolute; left: 52%; color: black;">QUEM SOMOS</span> 
-
+<span class="quemSomos mt-5">QUEM SOMOS</span> 
 <br><br>
-
 <div>
-<p class="textoQuemSomos" style="position: absolute; left: 51%; margin-top: 25%; color: black; font-size: 1vw;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore temporibus <br> nostrum quas aperiam doloremque labore consequatur, velit porro dolorum earum as <br><br> ad ipsum possimus repellendus rerum nobis magni suscipit. Lorem ipsum dolor sit lers<br> amet, consectetur adipisicing elit. Error non neque impedit dolor ducimus perspiciatisy <br><br> tenetur eligendi itaque eius aperiam rem dignissimos omnis nostrum, earum soluta, ary <br> modi assumenda quaerat rerum? Lorem ipsum dolor sit amet, consectetur adipisicing <br> elit. Ad sed, recusandae assumenda asperiores vero quae, corrupti unde accusantium <br> aperiam, maiores maxime nostrum dolorem totam beatae in reiciendis hic delectus <br> natus.</p>
+<p class="textoQuemSomos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore temporibus <br> nostrum quas aperiam doloremque labore consequatur, velit porro dolorum earum as <br><br> ad ipsum possimus repellendus rerum nobis magni suscipit. Lorem ipsum dolor sit lers<br> amet, consectetur adipisicing elit. Error non neque impedit dolor ducimus perspiciatisy <br><br> tenetur eligendi itaque eius aperiam rem dignissimos omnis nostrum, earum soluta, ary <br> modi assumenda quaerat rerum? Lorem ipsum do lor sit amet, consectetur adipisicing <br> elit. Ad sed, recusandae assumenda asperiores vero quae, corrupti unde accusantium <br> aperiam, maiores maxime nostrum dolorem totam beatae in reiciendis hic delectus <br> natus.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusantium quos beatae <br> corporis quis! Quod nisi, veniam in, doloribus aperiam ut error debitis distinctio nihil <br> odio ducimus magnam a amet? <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, a illum? Commodi on<br> quas reiciendis nihil quod ea doloribus fugit saepe porro culpa, sunt odit. Explicabo <br> aperiam praesentium perspiciatis id fuga.
+</p>
+</div>
+
+<p class="nomeBarbeiro">
+Leonardo Souza (Barbearia Do Léo)
+<br><br><br><br><br>
+A Barberia do Léo fica na rua X, número Y, bairro Z.
+</p>
+</div>
+
+<div class="">
+<img src="img/cortePB.jpg" class="img-fluid imgServicos" alt="">
+
+<span class="servicos">SERVIÇOS</span>
+
 </div>
 
  
