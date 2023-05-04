@@ -19,12 +19,12 @@
 
 <nav class="navbar navbar-expand-lg fixed-top bg-danger">
 <div class="container-fluid">
-  <a class="navbar-brand bg-gradient-danger" href="#">Barbearia do Léo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand" href="#">Barbearia do Léo</a>
+    <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse k navbar-collapse" id="navbarNavDarkDropdown">
+    <div class="collapse k navbar-collapse me-5" id="navbarNavDarkDropdown">
     <ul class="navbar-nav mx-auto">
         <li class="nav-item me-5">
           <a class="nav-link active home me-5" aria-current="page" href="#">Home</a>
@@ -39,8 +39,8 @@
           <a class="nav-link bg-gradient-danger me-5" href="#">Serviços</a>
         </li>
         
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle mais" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <li class="nav-item dropdown me-5">
+          <a class="nav-link bg-gradient-danger dropdown-toggle mais me-5" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Mais
           </a>
           <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
@@ -75,7 +75,7 @@
 </div>
 
 
-<div class="mt-5">
+<div class="espacamentoQuemSomos">
 <img src="img/quemsomosPB.jpg" class="img-fluid imgQuemSomos mt-5" alt="...">
 
 <span class="quemSomos mt-5">QUEM SOMOS</span> 
@@ -86,16 +86,16 @@
 </div>
 
 <p class="nomeBarbeiro">
-Leonardo Souza (Barbearia Do Léo)
-<br><br><br><br><br>
-A Barberia do Léo fica na rua X, número Y, bairro Z.
+Leonardo Souza (Proprietário da Barbearia do Léo).
 </p>
 </div>
 
 <div class="">
 <img src="img/cortePB.jpg" class="img-fluid imgServicos" alt="">
-
 <span class="servicos">SERVIÇOS</span>
+<span class="corteMasculino">Corte Masculino</span>
+<span class="precoCorteMasculino">R$30</span>
+
 
 </div>
 

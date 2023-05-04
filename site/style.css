@@ -12,6 +12,11 @@
 }
 
 .bg-gradient-danger:hover {
+    color: white;   
+}
+
+.container-fluid .navbar-brand{
+    font-family: 'Oswald', sans-serif;
     color: white;
 }
 
@@ -20,9 +25,8 @@
     font-family: 'Roboto, Arial, sans-serif';
 }
 
-.navbar-nav .nav-link.dropdown-toggle.mais {
-    color: black;
-    font-family: 'Roboto, Arial, sans-serif';
+.espacamentoQuemSomos{
+    margin-top: 3%;
 }
 
 .imgQuemSomos{
@@ -64,7 +68,7 @@
     height: auto;
     width: 100%;
     position: absolute;
-    margin-top: 70%;
+    margin-top: 66%;
 }
 
 .servicos{
@@ -72,6 +76,38 @@
  font-size: 7vw;
  position: absolute;
  left: 38%;
- margin-top: 73%;
- color: rgb(245,174,113); 
+ margin-top: 69%;
+ color: white; 
 }
+
+.corteMasculino{
+    left: 15%;
+    margin-top: 88%;
+    position: absolute;
+    color: white;
+    font-size: 1.8vw;
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+}
+
+.corteMasculino:before{
+content: "";
+position: absolute;
+bottom: -70%;
+left: 0;
+width: 496%;
+height: 0.1px;
+background-color: white;
+}
+
+
+.precoCorteMasculino{
+    left: 80%;
+    margin-top: 88%;
+    position: absolute;
+    color: white;
+    font-size: 1.8vw;
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+ }
+
