@@ -17,17 +17,17 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg fixed-top bg-danger">
+<nav class="navbar navbar-expand-lg fixed-top bg-dark">
 <div class="container-fluid">
-  <a class="navbar-brand" href="#">Barbearia do Léo</a>
-    <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand" href="#"><strong>Barbearia do Léo</strong></a>
+    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse k navbar-collapse me-5" id="navbarNavDarkDropdown">
+    <div class="collapse k navbar-collapse ms-5" id="navbarNavDarkDropdown">
     <ul class="navbar-nav mx-auto">
         <li class="nav-item me-5">
-          <a class="nav-link active home me-5" aria-current="page" href="#">Home</a>
+          <a class="nav-link active bg-gradient-danger me-5" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item me-5">
           <a class="nav-link bg-gradient-danger me-5" href="#">Agendar</a>
@@ -53,30 +53,15 @@
   </div>
 </nav>
 
-<br><br>
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/barber-shop.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/barber-shop1.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+
+<div>
+  <img src="img/barber.jpg" class="img-fluid" alt="">
 </div>
 
 
 <div class="espacamentoQuemSomos">
-<img src="img/quemsomosPB.jpg" class="img-fluid imgQuemSomos mt-5" alt="...">
+<img src="img/quemSomos.jpg" class="img-fluid imgQuemSomos mt-5" alt="...">
 
 <span class="quemSomos mt-5">QUEM SOMOS</span> 
 <br><br>
@@ -86,7 +71,12 @@
 </div>
 
 <p class="nomeBarbeiro">
-Leonardo Souza (Proprietário da Barbearia do Léo).
+<strong class="textoBarbearia">Leonardo Souza (Proprietário da Barbearia do Léo)</strong>
+<br><br><br>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. A atque mai<br>ores distinctio sequi, officia nostrum veritatis. Vitae labore deserunte,<br>laboriosam dolorem alias blanditiis aut numquam in rem explicabon <br> cumque dolore?<br><br>
+A Barbearia fica na Rua X, Bairro Y, Cidade Z;
+<br><br><br><br>
+<span class="textoBarbearia"><strong>Barbearia em Americana-SP | Barbearia Av. Brasil | Melhor barbearia de São Paulo</strong></span>
 </p>
 </div>
 

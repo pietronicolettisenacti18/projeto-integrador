@@ -5,24 +5,23 @@
     font-size: 3vh;
 }
 
+.bg-dark{
+    background-color: #000000e7 !important;
+}
+
 .bg-gradient-danger {
-    color: black;
+    color: white;
     transition: color 0.5s ease;
     font-family: 'Roboto, Arial, sans-serif';
 }
 
 .bg-gradient-danger:hover {
-    color: white;   
+    color: rgb(245,174,113);   
 }
 
 .container-fluid .navbar-brand{
     font-family: 'Oswald', sans-serif;
-    color: white;
-}
-
-.navbar-nav .nav-link.active.home {
-    color: white;
-    font-family: 'Roboto, Arial, sans-serif';
+    color: rgb(245,174,113);
 }
 
 .espacamentoQuemSomos{
@@ -32,8 +31,8 @@
 .imgQuemSomos{
     object-fit: cover; 
     height: auto;
-    width: 40%; 
-    left: 5%;
+    width: 30%; 
+    left: 10%;
     position: absolute;
 }
 
@@ -56,11 +55,15 @@
 
 .nomeBarbeiro{
     position: absolute;
-    left: 6%;
-    margin-top: 59.5%;
+    left: 10.5%;
+    margin-top: 45%;
     color: black;
     font-size: 1vw;
     font-family: 'Nunito', sans-serif;
+}
+
+.textoBarbearia{
+    font-size: 75%;
 }
 
 .imgServicos{
@@ -110,4 +113,3 @@ background-color: white;
     font-family: 'Lora', sans-serif;
     display: inline-block;
  }
-
