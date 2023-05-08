@@ -10,18 +10,18 @@
 }
 
 .bg-gradient-danger {
-    color: white;
+    color: rgb(79, 173, 255);
     transition: color 0.5s ease;
     font-family: 'Roboto, Arial, sans-serif';
 }
 
 .bg-gradient-danger:hover {
-    color: rgb(245,174,113);   
+    color: white;   
 }
 
 .container-fluid .navbar-brand{
     font-family: 'Oswald', sans-serif;
-    color: rgb(245,174,113);
+    color: white;
 }
 
 .espacamentoQuemSomos{
@@ -38,16 +38,16 @@
 
 .quemSomos {
     font-family: 'Oswald', sans-serif;
-    font-size: 7vw;
+    font-size: 6.5vw;
     position: absolute;
-    left: 52%; 
+    left: 53%; 
     color: black;
 }
 
 .textoQuemSomos {
     font-family: 'Nunito', sans-serif;
     position: absolute;
-    left: 51%;
+    left: 51.3%;
     margin-top: 25%;
     color: black;
     font-size: 1vw;
@@ -76,7 +76,7 @@
 
 .servicos{
  font-family: 'Oswald', sans-serif;  
- font-size: 7vw;
+ font-size: 6.5vw;
  position: absolute;
  left: 38%;
  margin-top: 69%;
@@ -88,7 +88,7 @@
     margin-top: 88%;
     position: absolute;
     color: white;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     font-family: 'Lora', sans-serif;
     display: inline-block;
 }
@@ -96,9 +96,9 @@
 .corteMasculino:before{
 content: "";
 position: absolute;
-bottom: -70%;
+bottom: -100%;
 left: 0;
-width: 496%;
+width: 595%;
 height: 0.1px;
 background-color: white;
 }
@@ -109,7 +109,142 @@ background-color: white;
     margin-top: 88%;
     position: absolute;
     color: white;
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     font-family: 'Lora', sans-serif;
     display: inline-block;
  }
+
+ .barbaBigode{
+    left: 15%;
+    margin-top: 94.5%;
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+ }
+
+.barbaBigode:before{
+content: "";
+position: absolute;
+bottom: -100%;
+left: 0;
+width: 648%;
+height: 0.1px;
+background-color: white;
+}
+
+.precoBarbaBigode{
+    left: 80%;
+    margin-top: 94.5%;
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+    
+}
+
+.comboCorteBB{
+    left: 15%;
+    margin-top: 101%;
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+}
+
+.precoComboCorteBB{
+    left: 80%;
+    margin-top: 101%;
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+}
+
+.comboCorteBB:before{
+content: "";
+position: absolute;
+bottom: -100%;
+left: 0;
+width: 233%;
+height: 0.1px;
+background-color: white;
+}
+
+.sobrancelha{
+    left: 15%;
+    margin-top: 107.5%;
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+}
+
+.precoSobrancelha{
+    left: 80%;
+    margin-top: 107.5%;
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+}
+
+.sobrancelha:before{
+content: "";
+position: absolute;
+bottom: -100%;
+left: 0;
+width: 798%;
+height: 0.1px;
+background-color: white;
+}
+
+.outrosServicos{
+    left: 15%;
+    margin-top: 114%;
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+}
+
+.cliqueAqui{
+    left: 75.8%;
+    margin-top: 114%;
+    position: absolute;
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Lora', sans-serif;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cliqueAqui:hover{
+color: white;
+}
+
+.outrosServicos:before{
+content: "";
+position: absolute;
+bottom: -100%;
+left: 0;
+width: 617%;
+height: 0.1px;
+background-color: white;
+}
+
+.galeria{
+    font-family: 'Oswald', sans-serif;  
+    font-size: 6.5vw;
+    position: absolute;
+    left: 38%;
+    margin-top: 126.5%;
+    color: black;
+}
