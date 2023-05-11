@@ -244,7 +244,36 @@ background-color: white;
     font-family: 'Oswald', sans-serif;  
     font-size: 6.5vw;
     position: absolute;
-    left: 38%;
+    left: 39.8%;
     margin-top: 126.5%;
     color: black;
+}
+
+.imgsGaleria{
+    margin-left: 2%;
+}
+
+.imagensGaleriaUm{
+    margin-top: 140%;
+    object-fit: cover; 
+    height: auto;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.imagensGaleriaDois{
+    object-fit: cover; 
+    height: auto;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.imagensGaleriaUm img {
+    margin: 0 12px;
+}
+
+.imagensGaleriaDois img{
+    margin: 0 12px;
 }

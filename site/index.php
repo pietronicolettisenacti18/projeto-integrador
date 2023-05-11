@@ -24,7 +24,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse k navbar-collapse me-5" id="navbarNavDarkDropdown">
+      <div class="collapse k navbar-collapse" id="navbarNavDarkDropdown">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item me-5">
             <a class="nav-link active bg-gradient-danger me-5" aria-current="page" href="#">Home</a>
@@ -81,7 +81,7 @@
   </div>
 
   <div class="">
-    <img src="img/teste.jpg" class="img-fluid imgServicos" alt="">
+    <img src="img/imgServicos.jpg" class="img-fluid imgServicos" alt="">
     <span class="servicos">SERVIÇOS</span>
     <span class="corteMasculino">Corte Masculino</span>
     <span class="precoCorteMasculino">R$30</span>
@@ -95,9 +95,33 @@
     <a class="cliqueAqui" href="#">Clique aqui</a>
   </div>
 
-<section class="galeria">GALERIA</section>
+  <section class="galeria">GALERIA</section>
 
 
+  <div class="row imagensGaleriaUm">
+    <div class="col-md-3 mb-3">
+      <img src="img/corte.jpg" class="img-fluid " alt="">
+    </div>
+    <div class="col-md-3 mb-3">
+      <img src="img/corte(2).jpg" class="img-fluid" alt="">
+    </div>
+    <div class="col-md-3 mb-3">
+      <img src="img/corte(3).jpg" class="img-fluid" alt="">
+    </div>
+  </div>
+  <div class="row imagensGaleriaDois">
+    <div class="col-md-3 mb-3">
+      <img src="img/corte.jpg" class="img-fluid " alt="">
+    </div>
+    <div class="col-md-3 mb-3">
+      <img src="img/corte(2).jpg" class="img-fluid" alt="">
+    </div>
+    <div class="col-md-3 mb-3">
+      <img src="img/corte(3).jpg" class="img-fluid" alt="">
+    </div>
+  </div>
+
+  
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
