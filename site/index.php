@@ -99,25 +99,26 @@
 
 
   <div class="row imagensGaleriaUm">
-    <div class="col-md-3 mb-3">
-      <img src="img/corte.jpg" class="img-fluid " alt="">
+    <div class="col-3 mb-2">
+      <img src="img/.jpg" class="img-fluid" alt="">
     </div>
-    <div class="col-md-3 mb-3">
-      <img src="img/corte(2).jpg" class="img-fluid" alt="">
+    <div class="col-3 mb-2">
+      <img src="img/galeria2.jpg" class="img-fluid" alt="">
     </div>
-    <div class="col-md-3 mb-3">
-      <img src="img/corte(3).jpg" class="img-fluid" alt="">
+    <div class="col-3 mb-2">
+      <a href="">
+      <img src="img/.jpg" class="img-fluid" alt=""></a>
     </div>
   </div>
   <div class="row imagensGaleriaDois">
-    <div class="col-md-3 mb-3">
-      <img src="img/corte.jpg" class="img-fluid " alt="">
+    <div class="col-3 mb-2">
+      <img src="img/.jpg" class="img-fluid " alt="">
     </div>
-    <div class="col-md-3 mb-3">
-      <img src="img/corte(2).jpg" class="img-fluid" alt="">
+    <div class="col-3 mb-2">
+      <img src="img/galeria5.jpg" class="img-fluid" alt="">
     </div>
-    <div class="col-md-3 mb-3">
-      <img src="img/corte(3).jpg" class="img-fluid" alt="">
+    <div class="col-3 mb-2">
+      <img src="img/galeria6.jpg" class="img-fluid" alt="">
     </div>
   </div>
 
