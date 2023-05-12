@@ -269,19 +269,21 @@ background-color: white;
 .imagensGaleriaUm .col-3 {
     padding-right: 0.3%;
     padding-left: 0.3%;
+    padding-top: 0.6%;
   }
   
   .imagensGaleriaDois .col-3 {
     padding-right: 0.3%;
     padding-left: 0.3%;
+    padding-top: 0.6%;
   }
   
 
 .imagensGaleriaUm img {
-    margin: 0 25%;
+    margin: 0 27%;
 }
 
 .imagensGaleriaDois img{
-    margin: 0 25%;
+    margin: 0 27%;
 }
 
