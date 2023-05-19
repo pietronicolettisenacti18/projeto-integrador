@@ -9,7 +9,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barbearia do Léo</title>
+  <title>Barbearia #</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" href="img/icone.png" type="image/x-icon">
@@ -19,7 +19,7 @@
 
   <nav class="navbar navbar-expand-lg fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><strong>Barbearia do Léo</strong></a>
+      <a class="navbar-brand" href="#"><strong>Barbearia #</strong></a>
       <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -71,7 +71,7 @@
     </div>
 
     <p class="nomeBarbeiro">
-      <strong class="textoBarbearia">Leonardo Souza (Proprietário da Barbearia do Léo)</strong>
+      <strong class="textoBarbearia">Leonardo Souza (Proprietário da Barbearia #)</strong>
       <br><br><br>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. A atque mai<br>ores distinctio sequi, officia nostrum veritatis. Vitae labore deserunte,<br>laboriosam dolorem alias blanditiis aut numquam in rem explicabon <br> cumque dolore?<br><br>
       A Barbearia fica na Rua X, Bairro Y, Cidade Z;
@@ -80,7 +80,7 @@
     </p>
   </div>
 
-  <div class="">
+
     <img src="img/imgServicos.jpg" class="img-fluid imgServicos" alt="">
     <span class="servicos">SERVIÇOS</span>
     <span class="corteMasculino">Corte Masculino</span>
@@ -93,37 +93,74 @@
     <span class="precoSobrancelha">R$10</span>
     <span class="outrosServicos">Outros Serviços</span>
     <a class="cliqueAqui" href="#">Clique aqui</a>
-  </div>
 
-  <section class="galeria">GALERIA</section>
+
+  <span class="galeria">GALERIA</span>
 
 
   <div class="row imagensGaleriaUm">
     <div class="col-3">
-      <img src="img/galeria1.jpg" class="img-fluid" alt="">
+      <div class="image-container">
+    <img src="img/galeria1.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/jvpolizelli';">
+    <div class="image-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, rerum delectus voluptates dolores eveniet velit laboriosam reprehenderit tenetur ducimus? Dicta ullam voluptatibus ex commodi, quos exercitationem fuga temporibus corrupti in!</div>
     </div>
-    <div class="col-3">
-      <img src="img/galeria2.jpg" class="img-fluid" alt="">
     </div>
-    <div class="col-3">
-      <a href="">
-      <img src="img/galeria3.jpg" class="img-fluid" alt=""></a>
-    </div>
-  </div>
-  <div class="row imagensGaleriaDois">
-    <div class="col-3">
-      <img src="img/galeria4.jpg" class="img-fluid " alt="">
-    </div>
-    <div class="col-3">
-      <img src="img/galeria5.jpg" class="img-fluid" alt="">
-    </div>
-    <div class="col-3">
-      <img src="img/galeria6.jpg" class="img-fluid" alt="">
-    </div>
-  </div>
-
   
 
+    <div class="col-3">
+      <div class="image-container">  
+    <img src="img/galeria2.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/jvpolizelli';">
+    <div class="image-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde numquam illum perferendis quae magni beatae explicabo, animi atque quis. Alias minima accusantium eligendi facilis voluptatum officia! Nulla quisquam eius hic?</div>
+    </div>
+    </div>
+
+    <div class="col-3">
+      <div class="image-container">
+      <img src="img/galeria3.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/jvpolizelli';">
+      <div class="image-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores incidunt deleniti laborum laboriosam doloribus aperiam quia mollitia! Eos delectus aperiam laborum eius voluptas consequatur, itaque, animi fuga dolore velit magni.</div>
+    </div>
+    </div>
+  </div>
+
+  <div class="row imagensGaleriaDois">
+    <div class="col-3">
+      <div class="image-container">
+    <img src="img/galeria4.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/jvpolizelli';">
+    <div class="image-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maiores doloribus inventore reiciendis labore eveniet eaque odit esse modi. Quasi veritatis esse a aliquid voluptatibus dolorum minus in fuga corrupti!</div>
+    </div>
+    </div>
+
+    <div class="col-3">
+      <div class="image-container">
+    <img src="img/galeria5.jpg"style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/jvpolizelli';">
+    <div class="image-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nemo nihil ipsam praesentium! Nobis iusto minus, eveniet aspernatur assumenda commodi ullam, ratione asperiores minima officiis repellat, molestiae debitis dignissimos tempore.</div>
+    </div>
+    </div>
+
+    <div class="col-3">
+      <div class="image-container">
+    <img src="img/galeria6.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/jvpolizelli';">
+    <div class="image-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, sequi facere, ipsam nobis eius unde voluptas illo est, eaque quam asperiores perspiciatis! Culpa ipsum doloremque assumenda illum, vero autem nihil.</div>
+    </div>
+  </div>
+  </div>
+
+  <img src="img/imgContato.jpg" class="img-fluid imgContato" alt="">
+
+  <span class="contato">CONTATO</span>
+
+    <input type="text" class="form-control nomeContato btn-light" placeholder="Nome">
+    
+    <input type="email" class="form-control emailContato btn-light" placeholder="Email">
+    
+    <input type="text" class="form-control assuntoContato btn-light" placeholder="Assunto">
+    
+    <input type="text" class="form-control mensagemContato btn-light" placeholder="Mensagem">
+     
+    <button class="botaoContato btn btn-dark" type="button">Enviar</button>
+    
+
+    
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 

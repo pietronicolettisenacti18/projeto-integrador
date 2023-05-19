@@ -250,6 +250,7 @@ background-color: white;
 }
 
 .imagensGaleriaUm{
+    margin: 0 5.2%;
     margin-top: 140%;
     object-fit: cover; 
     height: auto;
@@ -259,6 +260,7 @@ background-color: white;
 }
 
 .imagensGaleriaDois{
+    margin: 0 5.2%;
     object-fit: cover; 
     height: auto;
     width: 90%; 
@@ -269,7 +271,6 @@ background-color: white;
 .imagensGaleriaUm .col-3 {
     padding-right: 0.3%;
     padding-left: 0.3%;
-    padding-top: 0.6%;
   }
   
   .imagensGaleriaDois .col-3 {
@@ -278,12 +279,90 @@ background-color: white;
     padding-top: 0.6%;
   }
   
+  .image-container {
+    position: relative;
+  }
+  
+  .image-text {
+    font-family: 'Roboto, Arial, sans-serif';
+    font-size: 1vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s, opacity 0.5s;
+  }
+  
+  .image-container:hover .image-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .contato{
+    font-family: 'Oswald', sans-serif;  
+    font-size: 6.5vw;
+    position: absolute;
+    color: white;
+    left: 39%;
+    margin-top: 6%;
+  }
 
-.imagensGaleriaUm img {
-    margin: 0 27%;
+  .imgContato{
+    object-fit: cover;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    margin-top: 5%;
+  }
+
+  .nomeContato{
+    border-radius: 0px;
+    position: absolute;
+    margin-top: 23%;
+    width: 25%;
+    height: 6%;
+    left: 25%;
+    font-family: 'Roboto, Arial, sans-serif';
+  }
+
+  .emailContato{
+    border-radius: 0px;
+    position: absolute;
+    margin-top: 23%;
+    width: 25%;
+    height: 6%;
+    left: 52%;
+    font-family: 'Roboto, Arial, sans-serif';
+  }
+
+  .assuntoContato{
+    border-radius: 0px;
+    position: absolute;
+    margin-top: 27%;
+    width: 52%;
+    height: 6%;
+    left: 25%;
+    font-family: 'Roboto, Arial, sans-serif';
+  }
+
+.mensagemContato{
+    border-radius: 0px;
+    position: absolute;
+    margin-top: 31%;
+    width: 52%;
+    left: 25%;
+    height: 17%;
+    font-family: 'Roboto, Arial, sans-serif';
 }
 
-.imagensGaleriaDois img{
-    margin: 0 27%;
+.botaoContato{
+    border-radius: 0;
+    position: absolute;
+    margin-top: 40%;
+    width: 52%;
+    left: 25%;
+    font-family: 'Roboto, Arial, sans-serif';
 }
-
