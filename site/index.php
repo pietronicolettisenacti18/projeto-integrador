@@ -71,13 +71,14 @@
     </div>
 
     <p class="nomeBarbeiro">
-      <strong class="textoBarbearia">Leonardo Souza (Proprietário da Barbearia #)</strong>
-      <br><br><br>
+      <strong>Leonardo Souza (Proprietário da Barbearia #)</strong></p>
+      <br><br>
+      <p class="textoBarbearia">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. A atque mai<br>ores distinctio sequi, officia nostrum veritatis. Vitae labore deserunte,<br>laboriosam dolorem alias blanditiis aut numquam in rem explicabon <br> cumque dolore?<br><br>
       A Barbearia fica na Rua X, Bairro Y, Cidade Z;
-      <br><br><br><br>
-      <span class="textoBarbearia"><strong>Barbearia em Americana-SP | Barbearia Av. Brasil | Melhor barbearia de São Paulo</strong></span>
-    </p>
+      </p> <br><br>
+      <span class="textoBarbearia2"><strong>Barbearia em Americana-SP | Barbearia Av. Brasil | Melhor barbearia de São Paulo</strong></span>
+    
   </div>
 
 
@@ -145,20 +146,35 @@
   </div>
   </div>
 
+
+  
   <img src="img/imgContato.jpg" class="img-fluid imgContato" alt="">
-
   <span class="contato">CONTATO</span>
-
+  <div class="containerContato">
+  <form action="mensagem-contato.php" method="post">
+    <div class="row">
+      <div class="col mb-2">  
     <input type="text" class="form-control nomeContato btn-light" placeholder="Nome">
-    
+      </div>
+      <div class="col mb-2">
     <input type="email" class="form-control emailContato btn-light" placeholder="Email">
-    
+    </div>
+    </div>
+    <div class="row">
+      <div class="col mb-2"> 
     <input type="text" class="form-control assuntoContato btn-light" placeholder="Assunto">
-    
-    <input type="text" class="form-control mensagemContato btn-light" placeholder="Mensagem">
-     
-    <button class="botaoContato btn btn-dark" type="button">Enviar</button>
-    
+  </div>
+    <div class="mb-2">
+    <textarea class="form-control mensagemContato btn-light" col="20" rows="4" placeholder="Mensagem"></textarea>
+    </div>
+      <div class="mb-2 text-center">
+    <button class="btn btn-secondary w-50" type="submit">Enviar</button>
+    </div>
+    </div>
+  </form>
+  </div>
+ 
+ 
 
     
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

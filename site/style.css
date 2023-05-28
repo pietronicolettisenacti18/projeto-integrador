@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,300&family=Lora:ital,wght@0,400;0,500;0,600;1,600&family=Nunito:wght@200&family=Open+Sans:wght@300&family=Oswald:wght@300;400&family=Rajdhani:wght@300&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .navbar-brand {
     font-family: 'Roboto, Arial, sans-serif';
     font-size: 3vh;
@@ -10,7 +16,7 @@
 }
 
 .bg-gradient-danger {
-    color: rgb(79, 173, 255);
+    color: rgb(89, 178, 255);
     transition: color 0.5s ease;
     font-family: 'Roboto, Arial, sans-serif';
 }
@@ -48,9 +54,9 @@
     font-family: 'Nunito', sans-serif;
     position: absolute;
     left: 51.3%;
-    margin-top: 25%;
+    margin-top: 27%;
     color: black;
-    font-size: 1vw;
+    font-size: 1.1vw;
 }
 
 .nomeBarbeiro{
@@ -58,12 +64,26 @@
     left: 10.5%;
     margin-top: 45%;
     color: black;
-    font-size: 1vw;
+    font-size: 0.8vw;
     font-family: 'Nunito', sans-serif;
 }
 
 .textoBarbearia{
-    font-size: 75%;
+    position: absolute;
+    left: 10.5%;
+    margin-top: 50%;
+    color: black;
+    font-size: 1.1vw;
+    font-family: 'Nunito', sans-serif;
+}
+
+.textoBarbearia2{
+    position: absolute;
+    left: 10.5%;
+    margin-top: 64.5%;
+    color: black;
+    font-size: 0.8vw;
+    font-family: 'Nunito', sans-serif;
 }
 
 .imgServicos{
@@ -307,7 +327,7 @@ background-color: white;
     position: absolute;
     color: white;
     left: 39%;
-    margin-top: 6%;
+    margin-top: 8%;
   }
 
   .imgContato{
@@ -318,51 +338,12 @@ background-color: white;
     margin-top: 5%;
   }
 
-  .nomeContato{
-    border-radius: 0px;
-    position: absolute;
-    margin-top: 23%;
-    width: 25%;
-    height: 6%;
-    left: 25%;
-    font-family: 'Roboto, Arial, sans-serif';
-  }
-
-  .emailContato{
-    border-radius: 0px;
-    position: absolute;
-    margin-top: 23%;
-    width: 25%;
-    height: 6%;
-    left: 52%;
-    font-family: 'Roboto, Arial, sans-serif';
-  }
-
-  .assuntoContato{
-    border-radius: 0px;
-    position: absolute;
-    margin-top: 27%;
-    width: 52%;
-    height: 6%;
-    left: 25%;
-    font-family: 'Roboto, Arial, sans-serif';
-  }
-
-.mensagemContato{
-    border-radius: 0px;
-    position: absolute;
-    margin-top: 31%;
-    width: 52%;
-    left: 25%;
-    height: 17%;
-    font-family: 'Roboto, Arial, sans-serif';
-}
-
-.botaoContato{
-    border-radius: 0;
-    position: absolute;
-    margin-top: 40%;
-    width: 52%;
-    left: 25%;
-    font-family: 'Roboto, Arial, sans-serif';
+.containerContato{
+border-radius: 0;
+margin: 25% 25%;
+width: 50%;
+position: absolute;
+object-fit: cover;
+flex-direction: column;
+display: flex;
 }
