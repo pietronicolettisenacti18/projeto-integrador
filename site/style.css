@@ -3,7 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: 0;
 }
 
 .navbar-brand {
@@ -54,9 +54,9 @@
     font-family: 'Nunito', sans-serif;
     position: absolute;
     left: 51.3%;
-    margin-top: 27%;
+    margin-top: 31%;
     color: black;
-    font-size: 1.1vw;
+    font-size: 1vw;
 }
 
 .nomeBarbeiro{
@@ -71,9 +71,9 @@
 .textoBarbearia{
     position: absolute;
     left: 10.5%;
-    margin-top: 50%;
+    margin-top: 50.5%;
     color: black;
-    font-size: 1.1vw;
+    font-size: 1vw;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -320,30 +320,45 @@ background-color: white;
     visibility: visible;
     opacity: 1;
   }
-  
+
+  .imagemContato {
+    background-image: url('./img/imgContato.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100vmin;
+    margin-top: 5%;
+    }
+
   .contato{
     font-family: 'Oswald', sans-serif;  
     font-size: 6.5vw;
     position: absolute;
     color: white;
+    margin-top: 2%;
     left: 39%;
-    margin-top: 8%;
-  }
-
-  .imgContato{
-    object-fit: cover;
-    height: auto;
-    width: 100%;
-    position: absolute;
-    margin-top: 5%;
   }
 
 .containerContato{
 border-radius: 0;
-margin: 25% 25%;
 width: 50%;
 position: absolute;
-object-fit: cover;
 flex-direction: column;
 display: flex;
+margin: 0 25.4%;
+padding-top: 22%;
+}
+
+.localizacao{
+    font-family: 'Oswald', sans-serif;  
+    font-size: 6.5vw;
+    position: absolute;
+    left: 32.5%;
+    color: black;
+}
+
+.maps{
+    margin-top: 14%;
+    width: 100%;
+    height: 40vw;
 }

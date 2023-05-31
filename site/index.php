@@ -72,11 +72,11 @@
 
     <p class="nomeBarbeiro">
       <strong>Leonardo Souza (Proprietário da Barbearia #)</strong></p>
-      <br><br>
+
       <p class="textoBarbearia">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. A atque mai<br>ores distinctio sequi, officia nostrum veritatis. Vitae labore deserunte,<br>laboriosam dolorem alias blanditiis aut numquam in rem explicabon <br> cumque dolore?<br><br>
       A Barbearia fica na Rua X, Bairro Y, Cidade Z;
-      </p> <br><br>
+      </p> 
       <span class="textoBarbearia2"><strong>Barbearia em Americana-SP | Barbearia Av. Brasil | Melhor barbearia de São Paulo</strong></span>
     
   </div>
@@ -147,8 +147,7 @@
   </div>
 
 
-  
-  <img src="img/imgContato.jpg" class="img-fluid imgContato" alt="">
+  <div class="imagemContato">
   <span class="contato">CONTATO</span>
   <div class="containerContato">
   <form action="mensagem-contato.php" method="post">
@@ -163,21 +162,27 @@
     <div class="row">
       <div class="col mb-2"> 
     <input type="text" class="form-control assuntoContato btn-light" placeholder="Assunto">
+      </div>
   </div>
-    <div class="mb-2">
+  <div class="row">
+    <div class="col mb-2">
     <textarea class="form-control mensagemContato btn-light" col="20" rows="4" placeholder="Mensagem"></textarea>
     </div>
-      <div class="mb-2 text-center">
-    <button class="btn btn-secondary w-50" type="submit">Enviar</button>
+  </div>
+  <div class="row">
+      <div class="col mb-2 text-center">
+    <button class="btn btn-secondary" type="submit">Enviar</button>
     </div>
     </div>
   </form>
   </div>
- 
- 
+  </div>
+
+  <span class="localizacao">LOCALIZAÇÃO</span>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14717.018842092975!2d-47.32767173022461!3d-22.755926799999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89991d0d65091%3A0xe0ad9a25e4f050d3!2sR.%20Anhanguera%2C%201891%20-%20Nova%20Americana%2C%20Americana%20-%20SP%2C%2013466-060!5e0!3m2!1sen!2sbr!4v1685564151625!5m2!1sen!2sbr" width="750" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
+
 
     
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
-
 </html>
