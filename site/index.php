@@ -26,26 +26,30 @@
 
       <div class="collapse k navbar-collapse" id="navbarNavDarkDropdown">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item me-5">
+          <li class="nav-item me-4">
             <a class="nav-link active bg-gradient-danger me-5" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item me-5">
+          <li class="nav-item me-4">
             <a class="nav-link bg-gradient-danger me-5" href="#">Agendar</a>
           </li>
-          <li class="nav-item me-5">
+          <li class="nav-item me-4">
             <a class="nav-link bg-gradient-danger me-5" href="#">Quem Somos</a>
           </li>
-          <li class="nav-item me-5">
+          <li class="nav-item me-4">
             <a class="nav-link bg-gradient-danger me-5" href="#">Serviços</a>
           </li>
-
-          <li class="nav-item dropdown me-5">
-            <a class="nav-link bg-gradient-danger dropdown-toggle mais me-5" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item me-4">
+            <a class="nav-link bg-gradient-danger me-5" href="#">Fazer Login</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link bg-gradient-danger dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Mais
             </a>
             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Contato</a></li>
               <li><a class="dropdown-item" href="#">Galeria</a></li>
+              <li><a class="dropdown-item" href="#">Contato</a></li>
+              <li><a class="dropdown-item" href="#">Localização</a></li>
             </ul>
           </li>
         </ul>
@@ -56,7 +60,7 @@
 
 
   <div>
-    <img src="img/barber.jpg" class="img-fluid" alt="">
+    <img src="img/barber.jpg" class="img-fluid imagemInicio" alt="">
   </div>
 
 
@@ -181,6 +185,23 @@
   <span class="localizacao">LOCALIZAÇÃO</span>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14717.018842092975!2d-47.32767173022461!3d-22.755926799999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89991d0d65091%3A0xe0ad9a25e4f050d3!2sR.%20Anhanguera%2C%201891%20-%20Nova%20Americana%2C%20Americana%20-%20SP%2C%2013466-060!5e0!3m2!1sen!2sbr!4v1685564151625!5m2!1sen!2sbr" width="750" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
 
+    <footer class="footer">
+
+      <h6 class="textoFooter">Barbearia #</h6>
+      <div class="icones">
+      <img src="img/whatsapp.png" class="iconeWhatsapp" alt=""> 
+      <img src="img/instagram.png" class="iconeInstagram" alt="">
+      <img src="img/facebook.png" class="iconeFacebook" alt="">
+      </div>
+      
+      <h6 class="textoFooter2">Barbearia # - CNPJ: 00.001.001/0001-01<br>
+
+Rua X, Número 1891 - CEP 13466-060 - Americana - SP - Nova Americana<br>
+
+Copyright © 2023, TODOS OS DIREITOS RESERVADOS.</h6>
+       
+
+    </footer>
 
     
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

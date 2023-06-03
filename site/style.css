@@ -12,7 +12,7 @@
 }
 
 .bg-dark{
-    background-color: #000000e7 !important;
+    background-color: #000000c5 !important;
 }
 
 .bg-gradient-danger {
@@ -28,6 +28,11 @@
 .container-fluid .navbar-brand{
     font-family: 'Oswald', sans-serif;
     color: white;
+}
+
+.imagemInicio{
+    width: 100%;
+    height: 100vmin;
 }
 
 .espacamentoQuemSomos{
@@ -361,4 +366,48 @@ padding-top: 22%;
     margin-top: 14%;
     width: 100%;
     height: 40vw;
+}
+
+.footer{
+    background-color: #000000d7;
+    margin-top: 1%;
+    width: 100%;
+    height: 25vmin;
+    
+}
+
+.textoFooter{
+color: white;
+text-align: center;
+padding-top: 2%;
+}
+
+.textoFooter2{
+    color: white;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 0.7vw;
+}
+
+.icones{
+    text-align: center;
+}
+
+.iconeWhatsapp{
+    width: 25px;
+    height: 25px;
+    margin-top: 1%;
+    margin-right: 0.5%;
+}
+
+.iconeInstagram{
+    width: 25px;
+    height: 25px;
+    margin-top: 1%;
+}
+
+.iconeFacebook{
+ width: 25px;
+ height: 25px;
+margin-top: 1%;
 }
