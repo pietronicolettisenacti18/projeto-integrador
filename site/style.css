@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,300&family=Lora:ital,wght@0,400;0,500;0,600;1,600&family=Nunito:wght@200&family=Open+Sans:wght@300&family=Oswald:wght@300;400&family=Rajdhani:wght@300&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: 0;
@@ -11,7 +11,7 @@
     font-size: 3vh;
 }
 
-.bg-dark{
+.bg-dark {
     background-color: #000000c5 !important;
 }
 
@@ -22,27 +22,51 @@
 }
 
 .bg-gradient-danger:hover {
-    color: white;   
+    color: white;
 }
 
-.container-fluid .navbar-brand{
+.container-fluid .navbar-brand {
     font-family: 'Oswald', sans-serif;
     color: white;
 }
 
-.imagemInicio{
+.imagemInicio {
     width: 100%;
     height: 100vmin;
 }
 
-.espacamentoQuemSomos{
+.iconesMenu li {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.iconeWhatsappMenu {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.iconeInstagramMenu {
+    width: 25px;
+    height: 25px;
+    margin-left: 13%;
+    object-fit: cover;
+}
+
+.iconeFacebookMenu {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.espacamentoQuemSomos {
     margin-top: 3%;
 }
 
-.imgQuemSomos{
-    object-fit: cover; 
+.imgQuemSomos {
+    object-fit: cover;
     height: auto;
-    width: 30%; 
+    width: 30%;
     left: 10%;
     position: absolute;
 }
@@ -51,7 +75,7 @@
     font-family: 'Oswald', sans-serif;
     font-size: 6.5vw;
     position: absolute;
-    left: 53%; 
+    left: 53%;
     color: black;
 }
 
@@ -64,7 +88,7 @@
     font-size: 1vw;
 }
 
-.nomeBarbeiro{
+.nomeBarbeiro {
     position: absolute;
     left: 10.5%;
     margin-top: 45%;
@@ -73,7 +97,7 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.textoBarbearia{
+.textoBarbearia {
     position: absolute;
     left: 10.5%;
     margin-top: 50.5%;
@@ -82,7 +106,7 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.textoBarbearia2{
+.textoBarbearia2 {
     position: absolute;
     left: 10.5%;
     margin-top: 64.5%;
@@ -91,7 +115,7 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.imgServicos{
+.imgServicos {
     object-fit: cover;
     height: auto;
     width: 100%;
@@ -99,16 +123,16 @@
     margin-top: 66%;
 }
 
-.servicos{
- font-family: 'Oswald', sans-serif;  
- font-size: 6.5vw;
- position: absolute;
- left: 38%;
- margin-top: 69%;
- color: white; 
+.servicos {
+    font-family: 'Oswald', sans-serif;
+    font-size: 6.5vw;
+    position: absolute;
+    left: 38%;
+    margin-top: 69%;
+    color: white;
 }
 
-.corteMasculino{
+.corteMasculino {
     left: 15%;
     margin-top: 88%;
     position: absolute;
@@ -118,18 +142,18 @@
     display: inline-block;
 }
 
-.corteMasculino:before{
-content: "";
-position: absolute;
-bottom: -100%;
-left: 0;
-width: 595%;
-height: 0.1px;
-background-color: white;
+.corteMasculino:before {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 595%;
+    height: 0.1px;
+    background-color: white;
 }
 
 
-.precoCorteMasculino{
+.precoCorteMasculino {
     left: 80%;
     margin-top: 88%;
     position: absolute;
@@ -137,9 +161,9 @@ background-color: white;
     font-size: 1.5vw;
     font-family: 'Lora', sans-serif;
     display: inline-block;
- }
+}
 
- .barbaBigode{
+.barbaBigode {
     left: 15%;
     margin-top: 94.5%;
     position: absolute;
@@ -147,19 +171,19 @@ background-color: white;
     font-size: 1.5vw;
     font-family: 'Lora', sans-serif;
     display: inline-block;
- }
-
-.barbaBigode:before{
-content: "";
-position: absolute;
-bottom: -100%;
-left: 0;
-width: 648%;
-height: 0.1px;
-background-color: white;
 }
 
-.precoBarbaBigode{
+.barbaBigode:before {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 648%;
+    height: 0.1px;
+    background-color: white;
+}
+
+.precoBarbaBigode {
     left: 80%;
     margin-top: 94.5%;
     position: absolute;
@@ -167,10 +191,10 @@ background-color: white;
     font-size: 1.5vw;
     font-family: 'Lora', sans-serif;
     display: inline-block;
-    
+
 }
 
-.comboCorteBB{
+.comboCorteBB {
     left: 15%;
     margin-top: 101%;
     position: absolute;
@@ -180,7 +204,7 @@ background-color: white;
     display: inline-block;
 }
 
-.precoComboCorteBB{
+.precoComboCorteBB {
     left: 80%;
     margin-top: 101%;
     position: absolute;
@@ -190,17 +214,17 @@ background-color: white;
     display: inline-block;
 }
 
-.comboCorteBB:before{
-content: "";
-position: absolute;
-bottom: -100%;
-left: 0;
-width: 233%;
-height: 0.1px;
-background-color: white;
+.comboCorteBB:before {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 233%;
+    height: 0.1px;
+    background-color: white;
 }
 
-.sobrancelha{
+.sobrancelha {
     left: 15%;
     margin-top: 107.5%;
     position: absolute;
@@ -210,7 +234,7 @@ background-color: white;
     display: inline-block;
 }
 
-.precoSobrancelha{
+.precoSobrancelha {
     left: 80%;
     margin-top: 107.5%;
     position: absolute;
@@ -220,17 +244,17 @@ background-color: white;
     display: inline-block;
 }
 
-.sobrancelha:before{
-content: "";
-position: absolute;
-bottom: -100%;
-left: 0;
-width: 798%;
-height: 0.1px;
-background-color: white;
+.sobrancelha:before {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 798%;
+    height: 0.1px;
+    background-color: white;
 }
 
-.outrosServicos{
+.outrosServicos {
     left: 15%;
     margin-top: 114%;
     position: absolute;
@@ -240,7 +264,7 @@ background-color: white;
     display: inline-block;
 }
 
-.cliqueAqui{
+.cliqueAqui {
     left: 75.8%;
     margin-top: 114%;
     position: absolute;
@@ -251,22 +275,22 @@ background-color: white;
     cursor: pointer;
 }
 
-.cliqueAqui:hover{
-color: white;
+.cliqueAqui:hover {
+    color: white;
 }
 
-.outrosServicos:before{
-content: "";
-position: absolute;
-bottom: -100%;
-left: 0;
-width: 617%;
-height: 0.1px;
-background-color: white;
+.outrosServicos:before {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 617%;
+    height: 0.1px;
+    background-color: white;
 }
 
-.galeria{
-    font-family: 'Oswald', sans-serif;  
+.galeria {
+    font-family: 'Oswald', sans-serif;
     font-size: 6.5vw;
     position: absolute;
     left: 39.8%;
@@ -274,21 +298,21 @@ background-color: white;
     color: black;
 }
 
-.imagensGaleriaUm{
+.imagensGaleriaUm {
     margin: 0 5.2%;
     margin-top: 140%;
-    object-fit: cover; 
+    object-fit: cover;
     height: auto;
-    width: 90%; 
+    width: 90%;
     display: flex;
     justify-content: center;
 }
 
-.imagensGaleriaDois{
+.imagensGaleriaDois {
     margin: 0 5.2%;
-    object-fit: cover; 
+    object-fit: cover;
     height: auto;
-    width: 90%; 
+    width: 90%;
     display: flex;
     justify-content: center;
 }
@@ -296,19 +320,19 @@ background-color: white;
 .imagensGaleriaUm .col-3 {
     padding-right: 0.3%;
     padding-left: 0.3%;
-  }
-  
-  .imagensGaleriaDois .col-3 {
+}
+
+.imagensGaleriaDois .col-3 {
     padding-right: 0.3%;
     padding-left: 0.3%;
     padding-top: 0.6%;
-  }
-  
-  .image-container {
+}
+
+.image-container {
     position: relative;
-  }
-  
-  .image-text {
+}
+
+.image-text {
     font-family: 'Roboto, Arial, sans-serif';
     font-size: 1vw;
     position: absolute;
@@ -319,95 +343,100 @@ background-color: white;
     visibility: hidden;
     opacity: 0;
     transition: visibility 0.3s, opacity 0.5s;
-  }
-  
-  .image-container:hover .image-text {
+}
+
+.image-container:hover .image-text {
     visibility: visible;
     opacity: 1;
-  }
+}
 
-  .imagemContato {
+.imagemContato {
     background-image: url('./img/imgContato.jpg');
     background-size: 100%;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     width: 100%;
     height: 100vmin;
     margin-top: 5%;
-    }
+}
 
-  .contato{
-    font-family: 'Oswald', sans-serif;  
+.contato {
+    font-family: 'Oswald', sans-serif;
     font-size: 6.5vw;
     position: absolute;
     color: white;
     margin-top: 2%;
     left: 39%;
-  }
-
-.containerContato{
-border-radius: 0;
-width: 50%;
-position: absolute;
-flex-direction: column;
-display: flex;
-margin: 0 25.4%;
-padding-top: 22%;
 }
 
-.localizacao{
-    font-family: 'Oswald', sans-serif;  
+.containerContato {
+    border-radius: 0;
+    width: 50%;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    margin: 0 25.4%;
+    padding-top: 22%;
+}
+
+.localizacao {
+    font-family: 'Oswald', sans-serif;
     font-size: 6.5vw;
     position: absolute;
     left: 32.5%;
     color: black;
 }
 
-.maps{
+.maps {
     margin-top: 14%;
     width: 100%;
     height: 40vw;
 }
 
-.footer{
+.footer {
     background-color: #000000d7;
     margin-top: 1%;
     width: 100%;
     height: 25vmin;
-    
+
 }
 
-.textoFooter{
-color: white;
-text-align: center;
-padding-top: 2%;
+.textoFooter {
+    color: white;
+    text-align: center;
+    padding-top: 1.5%;
 }
 
-.textoFooter2{
+.textoFooter2 {
     color: white;
     margin-top: 2%;
     text-align: center;
     font-size: 0.7vw;
 }
 
-.icones{
+.icones {
     text-align: center;
+    margin-top: 1.5%;
 }
 
-.iconeWhatsapp{
+.iconeWhatsapp {
     width: 25px;
     height: 25px;
+    object-fit: cover;
     margin-top: 1%;
     margin-right: 0.5%;
 }
 
-.iconeInstagram{
+.iconeInstagram {
     width: 25px;
     height: 25px;
+    object-fit: cover;
     margin-top: 1%;
 }
 
-.iconeFacebook{
- width: 25px;
- height: 25px;
-margin-top: 1%;
+.iconeFacebook {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin-top: 1%;
+    margin-left: 0.1%;
 }
