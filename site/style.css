@@ -6,9 +6,10 @@
     box-sizing: 0;
 }
 
-.navbar-brand {
+.barbeariaHeader {
     font-family: 'Roboto, Arial, sans-serif';
-    font-size: 3vh;
+    color: white;
+    margin-top: 5px;
 }
 
 .bg-dark {
@@ -82,11 +83,39 @@
 .textoQuemSomos {
     font-family: 'Nunito', sans-serif;
     position: absolute;
-    left: 51.3%;
-    margin-top: 31%;
+    left: 51.5%;
+    margin-top: 17%;
     color: black;
     font-size: 1vw;
 }
+
+@media screen and (min-width: 265px) and (max-width: 340px) {
+    .textoQuemSomos {
+      font-size: 6px;
+      right: 5%;
+    }
+  }
+
+@media screen and (min-width: 340px) and (max-width: 435px) {
+    .textoQuemSomos {
+      font-size: 7px;
+      right: 6%;
+    }
+  }
+
+  @media screen and (min-width: 435px) and (max-width: 600px) {
+    .textoQuemSomos {
+      font-size: 10px;
+      right: 3%;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 1400px) {
+    .textoQuemSomos {
+   font-size: 1.5vw;
+   right: 8%;
+}
+  }
 
 .nomeBarbeiro {
     position: absolute;
@@ -97,6 +126,32 @@
     font-family: 'Nunito', sans-serif;
 }
 
+@media screen and (min-width: 265px) and (max-width: 340px) {
+    .nomeBarbeiro {
+      font-size: 5px;
+    }
+  }
+
+@media screen and (min-width: 340px) and (max-width: 435px) {
+    .nomeBarbeiro {
+      font-size: 6px;
+    }
+  }
+
+  @media screen and (min-width: 435px) and (max-width: 600px) {
+    .nomeBarbeiro {
+      font-size: 8px;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 1400px) {
+    .nomeBarbeiro {
+   font-size: 1.2vw;
+}
+  }
+
+
+
 .textoBarbearia {
     position: absolute;
     left: 10.5%;
@@ -106,6 +161,32 @@
     font-family: 'Nunito', sans-serif;
 }
 
+@media screen and (min-width: 265px) and (max-width: 340px) {
+    .textoBarbearia {
+      font-size: 6px;
+    }
+  }
+
+@media screen and (min-width: 340px) and (max-width: 435px) {
+    .textoBarbearia {
+      font-size: 6px;
+    }
+  }
+
+  @media screen and (min-width: 435px) and (max-width: 600px) {
+    .textoBarbearia {
+      font-size: 7.5px;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 1400px) {
+    .textoBarbearia {
+   font-size: 1.3vw;
+}
+  }
+
+
+
 .textoBarbearia2 {
     position: absolute;
     left: 10.5%;
@@ -114,6 +195,25 @@
     font-size: 0.8vw;
     font-family: 'Nunito', sans-serif;
 }
+
+@media screen and (min-width: 265px) and (max-width: 340px) {
+    .textoBarbearia2 {
+      display: none;
+    }
+  }
+
+@media screen and (min-width: 340px) and (max-width: 600px) {
+    .textoBarbearia2 {
+    display: none;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 1400px) {
+    .textoBarbearia2 {
+   font-size: 1.2vw;
+}
+  }
+
 
 .imgServicos {
     object-fit: cover;
@@ -387,36 +487,64 @@
 }
 
 .maps {
-    margin-top: 14%;
-    width: 100%;
+    width: 50%;
     height: 40vw;
+     margin: 14% auto 0;
+     display: block;
 }
 
 .footer {
     background-color: #000000d7;
-    margin-top: 1%;
+    margin-top: 5%;
     width: 100%;
     height: 25vmin;
-
 }
+
+@media screen and (min-width: 0px) and (max-width: 305px) {
+    .footer {
+   height: 50vmin;
+    }
+  }
+
+@media screen and (min-width: 305px) and (max-width: 350px) {
+    .footer {
+      height: 35vmin;
+    }
+  }
+
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+    .footer {
+      height: 30vmin;
+    }
+  }
 
 .textoFooter {
     color: white;
     text-align: center;
-    padding-top: 1.5%;
-}
-
-.textoFooter2 {
-    color: white;
-    margin-top: 2%;
-    text-align: center;
-    font-size: 0.7vw;
+    padding-top: 1%;
+    font-family: 'Oswald', sans-serif;
 }
 
 .icones {
     text-align: center;
-    margin-top: 1.5%;
+    margin-top: 1%;
 }
+
+.textoFooter2 {
+    color: white;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Roboto, Arial, sans-serif';
+}
+
+@media screen and (min-width: 305px) and (max-width: 350px) {
+    .textoFooter2 {
+      font-size: 10px;
+    }
+  }
+
+
 
 .iconeWhatsapp {
     width: 25px;
@@ -440,3 +568,4 @@
     margin-top: 1%;
     margin-left: 0.1%;
 }
+

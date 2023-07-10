@@ -15,7 +15,7 @@
 
   <nav class="navbar navbar-expand-lg fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><strong>Barbearia #</strong></a>
+      <h3 class="barbeariaHeader" href="#"><strong>Barbearia #</strong></h3>
       <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -71,7 +71,7 @@
     <span class="quemSomos mt-5">QUEM SOMOS</span>
     <br><br>
     <div>
-      <p class="textoQuemSomos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore temporibus <br> nostrum quas aperiam doloremque labore consequatur, velit porro dolorum earum as <br><br> ad ipsum possimus repellendus rerum nobis magni suscipit. Lorem ipsum dolor sit lers<br> amet, consectetur adipisicing elit. Error non neque impedit dolor ducimus perspiciatisy <br><br> tenetur eligendi itaque eius aperiam rem dignissimos omnis nostrum, earum soluta, ary <br> modi assumenda quaerat rerum? Lorem ipsum do lor sit amet, consectetur adipisicing <br> elit. Ad sed, recusandae assumenda asperiores vero quae, corrupti unde accusantium <br> aperiam, maiores maxime nostrum dolorem totam beatae in reiciendis hic delectus <br> natus.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro accusantium quos beatae <br> corporis quis! Quod nisi, veniam in, doloribus aperiam ut error debitis distinctio nihil <br> odio ducimus magnam a amet? <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora, a illum? Commodi on<br> quas reiciendis nihil quod ea doloribus fugit saepe porro culpa, sunt odit. Explicabo <br> aperiam praesentium perspiciatis id fuga.
+      <p class="textoQuemSomos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore temporibus <br> nostrum quas aperiam doloremque labore consequatur, velit porro dolorum earum as <br><br> ad ipsum possimus repellendus rerum nobis magni suscipit. Lorem ipsum dolor sit lers<br> amet, consectetur adipisicing elit. Error non neque impedit dolor ducimus perspiciatisy <br><br> 
       </p>
     </div>
 
@@ -100,7 +100,7 @@
   <span class="precoSobrancelha">R$10</span>
   <span class="outrosServicos">Outros Serviços</span>
   <a class="cliqueAqui" href="#">Clique aqui</a>
-
+  
 
   <span class="galeria">GALERIA</span>
 
@@ -189,7 +189,7 @@
 
   <footer class="footer">
 
-    <h5 class="textoFooter">Barbearia #</h5>
+    <h4 class="textoFooter">Barbearia #</h4>
     <div class="icones">
       <img src="img/whatsapp.png" class="iconeWhatsapp" alt="">
       <img src="img/instagram.png" class="iconeInstagram" alt="">
@@ -202,7 +202,7 @@
 
       Copyright © 2023, TODOS OS DIREITOS RESERVADOS.</h6>
 
-
+      
   </footer>
 
 
