@@ -10,6 +10,11 @@
     font-family: 'Roboto, Arial, sans-serif';
     color: white;
     margin-top: 5px;
+    text-decoration: none;
+}
+
+.barbeariaHeader:hover {
+  color: white;
 }
 
 .bg-dark {
@@ -80,6 +85,20 @@
     color: black;
 }
 
+.logo{
+  margin-left: 14.5%;
+  object-fit: cover;
+  height: auto;
+  width: 60%;
+  position: absolute;
+}
+
+@media screen and (min-width: 265px) and (max-width: 370px) {
+  .logo {
+    display: none;
+  }
+}
+
 .textoQuemSomos {
     font-family: 'Nunito', sans-serif;
     position: absolute;
@@ -88,6 +107,7 @@
     color: black;
     font-size: 1vw;
 }
+
 
 @media screen and (min-width: 265px) and (max-width: 340px) {
     .textoQuemSomos {
@@ -105,7 +125,7 @@
 
   @media screen and (min-width: 435px) and (max-width: 600px) {
     .textoQuemSomos {
-      font-size: 10px;
+      font-size: 8px;
       right: 3%;
     }
   }
@@ -489,13 +509,13 @@
 .maps {
     width: 50%;
     height: 40vw;
-     margin: 14% auto 0;
+     margin: 12% auto 0;
      display: block;
 }
 
 .footer {
     background-color: #000000d7;
-    margin-top: 5%;
+    margin-top: 3%;
     width: 100%;
     height: 25vmin;
 }
@@ -543,8 +563,6 @@
       font-size: 10px;
     }
   }
-
-
 
 .iconeWhatsapp {
     width: 25px;

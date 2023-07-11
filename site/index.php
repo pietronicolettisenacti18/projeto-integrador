@@ -15,7 +15,7 @@
 
   <nav class="navbar navbar-expand-lg fixed-top bg-dark">
     <div class="container-fluid">
-      <h3 class="barbeariaHeader" href="#"><strong>Barbearia #</strong></h3>
+    <a class="barbeariaHeader" href="#inicio"><h3><strong>Barbearia #</strong></h3></a>
       <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -23,16 +23,16 @@
       <div class="collapse k navbar-collapse" id="navbarNavDarkDropdown">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link active bg-gradient-danger me-5" aria-current="page" href="#">Home</a>
+            <a class="nav-link active bg-gradient-danger me-5" aria-current="page" href="#inicio">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link bg-gradient-danger me-5" href="#">Agende agora!</a>
+            <a class="nav-link bg-gradient-danger me-5" href="https://api.whatsapp.com/send?phone=<19991229908>&text=Olá, gostaria de agendar um horário!" target="_blank">Agende agora!</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link bg-gradient-danger me-5" href="#">Quem Somos</a>
+            <a class="nav-link bg-gradient-danger me-5" href="#quem-somos">Quem Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link bg-gradient-danger me-5" href="#">Serviços</a>
+            <a class="nav-link bg-gradient-danger me-5" href="#servicos">Serviços</a>
           </li>
 
           <li class="nav-item dropdown me-5">
@@ -40,17 +40,31 @@
               Mais
             </a>
             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Galeria</a></li>
-              <li><a class="dropdown-item" href="#">Contato</a></li>
-              <li><a class="dropdown-item" href="#">Localização</a></li>
+              <li><a class="dropdown-item" href="#galeria">Galeria</a></li>
+              <li><a class="dropdown-item" href="#contato">Contato</a></li>
+              <li><a class="dropdown-item" href="#localizacao">Localização</a></li>
             </ul>
           </li>
 
           <div class="iconesMenu me-5">
-            <li><img src="img/whatsapp.png" class="iconeWhatsappMenu" alt="">
-            </li>
-            <li><img src="img/instagram.png" class="iconeInstagramMenu" alt=""></li>
-            <li> <img src="img/facebook.png" class="iconeFacebookMenu me-5" alt=""></li>
+          <li>
+  <a href="https://api.whatsapp.com/send?phone=<19991229908>&text=Olá!" target="_blank">
+    <img src="img/whatsapp.png" class="iconeWhatsappMenu" alt="Ícone do WhatsApp">
+  </a>
+</li>
+
+<li>
+  <a href="https://www.instagram.com/jvpolizelli/" target="_blank">
+    <img src="img/instagram.png" class="iconeInstagramMenu" alt="Ícone do Instagram">
+  </a>
+</li>
+
+<li class="me-5">
+  <a href="https://www.facebook.com/joaovitor.polizelli" target="_blank">
+    <img src="img/facebook.png" class="iconeFacebookMenu" alt="Ícone do Facebook">
+  </a>
+</li>
+
           </div>
 
         </ul>
@@ -61,19 +75,21 @@
 
 
   <div>
-    <img src="img/barber.jpg" class="img-fluid imagemInicio" alt="">
+    <img id="inicio" src="img/barber.jpg" class="img-fluid imagemInicio" alt="">
   </div>
 
 
   <div class="espacamentoQuemSomos">
     <img src="img/quemSomos.jpg" class="img-fluid imgQuemSomos mt-5" alt="...">
 
-    <span class="quemSomos mt-5">QUEM SOMOS</span>
+    <section id="quem-somos" class="quemSomos mt-5">QUEM SOMOS</section>
     <br><br>
     <div>
       <p class="textoQuemSomos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia inventore temporibus <br> nostrum quas aperiam doloremque labore consequatur, velit porro dolorum earum as <br><br> ad ipsum possimus repellendus rerum nobis magni suscipit. Lorem ipsum dolor sit lers<br> amet, consectetur adipisicing elit. Error non neque impedit dolor ducimus perspiciatisy <br><br> 
+      <img src="img/logo.jpg" class="logo" alt="">
       </p>
     </div>
+
 
     <p class="nomeBarbeiro">
       <strong>Leonardo Souza (Proprietário da Barbearia #)</strong>
@@ -85,11 +101,13 @@
     </p>
     <span class="textoBarbearia2"><strong>Barbearia em Americana-SP | Barbearia Av. Brasil | Melhor barbearia de São Paulo</strong></span>
 
+    
+
   </div>
 
 
-  <img src="img/imgServicos.jpg" class="img-fluid imgServicos" alt="">
-  <span class="servicos">SERVIÇOS</span>
+  <img src="img/imgServicos.jpg"  id="servicos" class="img-fluid imgServicos" alt="">
+  <section class="servicos">SERVIÇOS</section>
   <span class="corteMasculino">Corte Masculino</span>
   <span class="precoCorteMasculino">R$30</span>
   <span class="barbaBigode">Barba & Bigode</span>
@@ -99,10 +117,10 @@
   <span class="sobrancelha">Sobrancelha</span>
   <span class="precoSobrancelha">R$10</span>
   <span class="outrosServicos">Outros Serviços</span>
-  <a class="cliqueAqui" href="#">Clique aqui</a>
+  <a class="cliqueAqui" href="https://api.whatsapp.com/send?phone=<19991229908>&text=Olá, pode me informar todos os serviços que vocês oferecem?" target="_blank">Clique aqui</a>
   
 
-  <span class="galeria">GALERIA</span>
+  <section id="galeria" class="galeria">GALERIA</section>
 
 
   <div class="row imagensGaleriaUm">
@@ -153,8 +171,8 @@
   </div>
 
 
-  <div class="imagemContato">
-    <span class="contato">CONTATO</span>
+  <div id="contato" class="imagemContato">
+    <section class="contato">CONTATO</section>
     <div class="containerContato">
       <form action="mensagem-contato.php" method="post">
         <div class="row">
@@ -184,16 +202,26 @@
     </div>
   </div>
 
-  <span class="localizacao">LOCALIZAÇÃO</span>
+  <section id="localizacao"  class="localizacao">LOCALIZAÇÃO</section>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14717.018842092975!2d-47.32767173022461!3d-22.755926799999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89991d0d65091%3A0xe0ad9a25e4f050d3!2sR.%20Anhanguera%2C%201891%20-%20Nova%20Americana%2C%20Americana%20-%20SP%2C%2013466-060!5e0!3m2!1sen!2sbr!4v1685564151625!5m2!1sen!2sbr" width="750" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
 
   <footer class="footer">
 
     <h4 class="textoFooter">Barbearia #</h4>
     <div class="icones">
-      <img src="img/whatsapp.png" class="iconeWhatsapp" alt="">
-      <img src="img/instagram.png" class="iconeInstagram" alt="">
-      <img src="img/facebook.png" class="iconeFacebook" alt="">
+
+    <a href="https://api.whatsapp.com/send?phone=<19991229908>&text=Olá!" target="_blank">
+    <img src="img/whatsapp.png" class="iconeWhatsapp" alt="Ícone do WhatsApp">
+    </a>
+
+      <a href="https://www.instagram.com/jvpolizelli/" target="_blank">
+    <img src="img/instagram.png" class="iconeInstagram" alt="Ícone do Instagram">
+  </a>
+
+  <a href="https://www.facebook.com/joaovitor.polizelli" target="_blank">
+    <img src="img/facebook.png" class="iconeFacebook" alt="Ícone do Facebook">
+  </a>
+
     </div>
 
     <h6 class="textoFooter2">Barbearia # - CNPJ: 00.001.001/0001-01<br>
