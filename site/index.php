@@ -59,7 +59,7 @@ include 'menu.php';
   <div class="row imagensGaleriaUm">
     <div class="col-3">
       <div class="image-container">
-        <img src="img/galeria1.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/jvpolizelli';">
+        <img src="img/galeria1.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/piinicoletti';">
         <div class="image-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, rerum delectus voluptates dolores eveniet velit laboriosam reprehenderit tenetur ducimus? Dicta ullam voluptatibus ex commodi, quos exercitationem fuga temporibus corrupti in!</div>
       </div>
     </div>
@@ -67,14 +67,14 @@ include 'menu.php';
 
     <div class="col-3">
       <div class="image-container">
-        <img src="img/galeria2.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/jvpolizelli';">
+        <img src="img/galeria2.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/piinicoletti';">
         <div class="image-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde numquam illum perferendis quae magni beatae explicabo, animi atque quis. Alias minima accusantium eligendi facilis voluptatum officia! Nulla quisquam eius hic?</div>
       </div>
     </div>
 
     <div class="col-3">
       <div class="image-container">
-        <img src="img/galeria3.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/jvpolizelli';">
+        <img src="img/galeria3.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/piinicoletti';">
         <div class="image-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores incidunt deleniti laborum laboriosam doloribus aperiam quia mollitia! Eos delectus aperiam laborum eius voluptas consequatur, itaque, animi fuga dolore velit magni.</div>
       </div>
     </div>
@@ -83,14 +83,14 @@ include 'menu.php';
   <div class="row imagensGaleriaDois">
     <div class="col-3">
       <div class="image-container">
-        <img src="img/galeria4.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/jvpolizelli';">
+        <img src="img/galeria4.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/piinicoletti';">
         <div class="image-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum maiores doloribus inventore reiciendis labore eveniet eaque odit esse modi. Quasi veritatis esse a aliquid voluptatibus dolorum minus in fuga corrupti!</div>
       </div>
     </div>
 
     <div class="col-3">
       <div class="image-container">
-        <img src="img/galeria5.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/jvpolizelli';">
+        <img src="img/galeria5.jpg" style="cursor: pointer;" class="img-fluid" alt="" onclick="window.location.href = 'https://www.instagram.com/piinicoletti';">
         <div class="image-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nemo nihil ipsam praesentium! Nobis iusto minus, eveniet aspernatur assumenda commodi ullam, ratione asperiores minima officiis repellat, molestiae debitis dignissimos tempore.</div>
       </div>
     </div>
@@ -104,37 +104,7 @@ include 'menu.php';
   </div>
 
 
-  <div id="contato" class="imagemContato">
-    <section class="contato">CONTATO</section>
-    <div class="containerContato">
-      <form action="contato.php" method="post">
-        <div class="row">
-          <div class="col mb-2">
-            <input type="text" class="form-control nomeContato btn-light" name="nome" placeholder="Nome">
-          </div>
-          <div class="col mb-2">
-            <input type="email" class="form-control emailContato btn-light" name="email" placeholder="Email">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col mb-2">
-            <input type="text" class="form-control assuntoContato btn-light" name="assunto" placeholder="Assunto">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col mb-2">
-            <textarea class="form-control mensagemContato btn-light" col="20" rows="4" name="mensagem" placeholder="Mensagem"></textarea>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col mb-2 text-center">
-            <button class="btn btn-secondary" onclick="exibirAlerta()" type="submit">Enviar</button>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-
+  
   <section id="localizacao"  class="localizacao">LOCALIZAÇÃO</section>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14717.018842092975!2d-47.32767173022461!3d-22.755926799999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89991d0d65091%3A0xe0ad9a25e4f050d3!2sR.%20Anhanguera%2C%201891%20-%20Nova%20Americana%2C%20Americana%20-%20SP%2C%2013466-060!5e0!3m2!1sen!2sbr!4v1685564151625!5m2!1sen!2sbr" width="750" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
 

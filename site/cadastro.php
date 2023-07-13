@@ -1,33 +1,40 @@
 <?php
 include 'cabecalho.php';
 include 'menu.php';
+include 'conexao2.php';
+
 ?>
+
+
+
+
+
 
 <section class="cadastro">CADASTRO</section>
     <div class="containerCadastro">
-      <form action="cadastro.php" method="post">
+      <form action="index.php" method="post">
         <div class="row">
           <div class="col mb-2">
-            <input type="text" class="form-control nomeContato btn-light" name="nome" placeholder="Nome">
+            <input type="text" class="form-control nomeContato btn-light" method="$_POST"  name="nome" placeholder="Nome">
           </div>
           <div class="col mb-2">
-            <input type="email" class="form-control emailContato btn-light" name="celular" placeholder="Celular">
+            <input type="number" class="form-control emailContato btn-light" method="$_POST " name="celular" placeholder="Celular">
           </div>
         </div>
         <div class="row">
           <div class="col mb-2">
-            <input type="text" class="form-control nomeContato btn-light" name="nomeUsuario" placeholder="Nome de Usuário">
+            <input type="text" class="form-control nomeContato btn-light" method="$_POST "name="nomeUsuario" placeholder="Nome de Usuário">
           </div>
           <div class="col mb-2">
-            <input type="email" class="form-control emailContato btn-light" name="email" placeholder="E-mail">
+            <input type="email" class="form-control emailContato btn-light" method="$_POST "name = "email" placeholder="E-mail">
           </div>
         </div>
         <div class="row">
           <div class="col mb-2">
-            <input type="text" class="form-control nomeContato btn-light" name="senha" placeholder="Senha">
+            <input type="text" class="form-control nomeContato btn-light" method="$_POST" name="senha" placeholder="Senha">
           </div>
           <div class="col mb-2">
-            <input type="email" class="form-control emailContato btn-light" name="confirmSenha" placeholder="Confirmar Senha">
+            <input type="number" class="form-control emailContato btn-light" method="$_POST" name="confirmSenha" placeholder="Confirmar Senha">
           </div>
         </div>
         

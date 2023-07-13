@@ -16,11 +16,15 @@ function redirect($url) {
 
 include 'cabecalho.php';
 include 'menu.php';
+include 'conexao.php';
 ?>
 
+include 'conexao.php';
+
 <section class="login">LOGIN</section>
+
     <div class="containerLogin">
-      <form action="login.php" method="post">
+      <form action="index.php" method="post">
         <div class="row">
           <div class="col-6 mx-auto mb-2">
             <input type="text" class="form-control nomeContato btn-light" name="usuario" placeholder="Usuário">
