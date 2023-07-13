@@ -1,80 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<?php
+include 'cabecalho.php';
+include 'menu.php';
+?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barbearia #</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" href="img/icone.png" type="image/x-icon">
-</head>
 
-<body>
-
-  <nav class="navbar navbar-expand-lg fixed-top bg-dark">
-    <div class="container-fluid">
-    <a class="barbeariaHeader" href="#inicio"><h3><strong>Barbearia #</strong></h3></a>
-      <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse k navbar-collapse" id="navbarNavDarkDropdown">
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item">
-            <a class="nav-link active bg-gradient-danger me-5" aria-current="page" href="#inicio">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-gradient-danger me-5" href="https://api.whatsapp.com/send?phone=<19991229908>&text=Olá, gostaria de agendar um horário!" target="_blank">Agende agora!</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-gradient-danger me-5" href="#quem-somos">Quem Somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link bg-gradient-danger me-5" href="#servicos">Serviços</a>
-          </li>
-
-          <li class="nav-item dropdown me-5">
-            <a class="nav-link bg-gradient-danger dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Mais
-            </a>
-            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-              <li><a class="dropdown-item" href="#galeria">Galeria</a></li>
-              <li><a class="dropdown-item" href="#contato">Contato</a></li>
-              <li><a class="dropdown-item" href="#localizacao">Localização</a></li>
-            </ul>
-          </li>
-
-          <li class="nav-item">
-            <a class="btn btn-outline-primary bg-gradient-danger me-5" href="#">Login</a>
-          </li>
-
-          <div class="iconesMenu me-5">
-          <li>
-  <a href="https://api.whatsapp.com/send?phone=<19991229908>&text=Olá!" target="_blank">
-    <img src="img/whatsapp.png" class="iconeWhatsappMenu" alt="Ícone do WhatsApp">
-  </a>
-</li>
-
-<li>
-  <a href="https://www.instagram.com/jvpolizelli/" target="_blank">
-    <img src="img/instagram.png" class="iconeInstagramMenu" alt="Ícone do Instagram">
-  </a>
-</li>
-
-<li class="me-5">
-  <a href="https://www.facebook.com/joaovitor.polizelli" target="_blank">
-    <img src="img/facebook.png" class="iconeFacebookMenu" alt="Ícone do Facebook">
-  </a>
-</li>
-
-          </div>
-
-        </ul>
-      </div>
-    </div>
-  </nav>
 
 
 
@@ -233,8 +162,6 @@
       Rua X, Número 1891 - CEP 13466-060 - Americana - SP - Nova Americana<br>
 
       Copyright © 2023, TODOS OS DIREITOS RESERVADOS.</h6>
-
-      
   </footer>
 
 
