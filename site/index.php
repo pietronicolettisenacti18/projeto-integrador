@@ -46,6 +46,10 @@
             </ul>
           </li>
 
+          <li class="nav-item">
+            <a class="btn btn-outline-primary bg-gradient-danger me-5" href="#">Login</a>
+          </li>
+
           <div class="iconesMenu me-5">
           <li>
   <a href="https://api.whatsapp.com/send?phone=<19991229908>&text=Olá!" target="_blank">
@@ -174,28 +178,28 @@
   <div id="contato" class="imagemContato">
     <section class="contato">CONTATO</section>
     <div class="containerContato">
-      <form action="mensagem-contato.php" method="post">
+      <form action="contato.php" method="post">
         <div class="row">
           <div class="col mb-2">
-            <input type="text" class="form-control nomeContato btn-light" placeholder="Nome">
+            <input type="text" class="form-control nomeContato btn-light" name="nome" placeholder="Nome">
           </div>
           <div class="col mb-2">
-            <input type="email" class="form-control emailContato btn-light" placeholder="Email">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col mb-2">
-            <input type="text" class="form-control assuntoContato btn-light" placeholder="Assunto">
+            <input type="email" class="form-control emailContato btn-light" name="email" placeholder="Email">
           </div>
         </div>
         <div class="row">
           <div class="col mb-2">
-            <textarea class="form-control mensagemContato btn-light" col="20" rows="4" placeholder="Mensagem"></textarea>
+            <input type="text" class="form-control assuntoContato btn-light" name="assunto" placeholder="Assunto">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col mb-2">
+            <textarea class="form-control mensagemContato btn-light" col="20" rows="4" name="mensagem" placeholder="Mensagem"></textarea>
           </div>
         </div>
         <div class="row">
           <div class="col mb-2 text-center">
-            <button class="btn btn-secondary" type="submit">Enviar</button>
+            <button class="btn btn-secondary" onclick="exibirAlerta()" type="submit">Enviar</button>
           </div>
         </div>
       </form>
@@ -210,11 +214,11 @@
     <h4 class="textoFooter">Barbearia #</h4>
     <div class="icones">
 
-    <a href="https://api.whatsapp.com/send?phone=<19991229908>&text=Olá!" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=<19991229908>&text=Olá!" style="text-decoration: none;" target="_blank">
     <img src="img/whatsapp.png" class="iconeWhatsapp" alt="Ícone do WhatsApp">
     </a>
 
-      <a href="https://www.instagram.com/jvpolizelli/" target="_blank">
+      <a href="https://www.instagram.com/jvpolizelli/" style="text-decoration: none;" target="_blank">
     <img src="img/instagram.png" class="iconeInstagram" alt="Ícone do Instagram">
   </a>
 
